@@ -13,6 +13,7 @@ guessed_state = []
 
 turtle.shape(image)
 
+# game over
 
 while len(guessed_state) < 50:
     answer_state = screen.textinput(title=f"{len(guessed_state)}/50 States Correct", prompt="What is your guess?").title()
